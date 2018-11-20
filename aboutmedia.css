@@ -1,0 +1,6 @@
+@media(max-width: 400px) {
+    .people-list-header::after {
+        width: 100%;
+        left: 0;
+    }
+}
