@@ -1,0 +1,16 @@
+.main {
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+}
+
+.main__content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.demo-form-embed {
+    flex: 0 1 690px;
+    border: 0;
+}
