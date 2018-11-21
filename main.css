@@ -39,7 +39,7 @@ body {
 
 .main-nav__top-menu-wrapper {
     flex: 1;
-    padding-left: calc(50% - 220px - 396px); /* 50% - half the size of buttons container - size of the logo */
+    padding-left: calc(50% - 170px - 396px); /* 50% - half the size of buttons container - size of the logo */
 }
 
 .main-nav__top-menu {

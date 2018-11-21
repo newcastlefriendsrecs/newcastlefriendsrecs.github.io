@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Newcastle Friends Demo">
-    <title>Radioshows - Newcastle Friends</title>
+    <meta name="description" content="Newcastle Friends About">
+    <title>About - Newcastle Friends</title>
     <link rel='icon' type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel='icon' type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href='media.css'>
-    <link rel="stylesheet" href='demo.css'>
+    <link rel="stylesheet" href='about.css'>
+    <link rel="stylesheet" href="aboutmedia.css">
 </head>
 
 <body>
@@ -22,13 +23,14 @@
                 </div>
                 <div class='main-nav__top-menu-wrapper'>
                     <ul class='main-nav__top-menu'>
-                        <li class="top-menu__button nav-button"><a class="nav-button__link" href="index.html">Home</a></li>
+                    <li class="top-menu__button nav-button"><a class="nav-button__link" href="index.html">Home</a></li>
                         <li class="top-menu__button nav-button"><a class="nav-button__link" href="about.html">About</a></li>
                         <li class="top-menu__button nav-button"><a class="nav-button__link" href="labels.html">Labels</a></li>
 						<li class="top-menu__button nav-button"><a class="nav-button__link" href="demo.html">Demo</a></li>
                         <li class="top-menu__button nav-button"> 
                             <div class="nav-button__link nav-button__link--active">Radio</div>
                         </li>
+						<li class="top-menu__button nav-button"><a class="nav-button__link" href="marketing.html">Marketing</a></li>
 						<li class="top-menu__button nav-button"><a class="nav-button__link" href="merch.html">Merch</a></li>
                         <li class="top-menu__button nav-button"><a class="nav-button__link" href="contact.html">Contact</a></li>
                     </ul>
@@ -37,8 +39,26 @@
         </header>
         <main class='main'>
             <div class='main__content'>
-			<iframe class = 'demo-form-embed' src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fnewcastlefriendsrecs%2F"></iframe>
-               <iframe class = 'demo-form-embed' src="http://ascension.fm"></iframe>
+                <header class="people-list-header">
+                    <h2 class="people-list-header__text">Label Shows</h2>
+                </header>
+                <div class='people-list'>
+                    <a class='people-list__item' href="http://fanlink.to/immersionsessionspod">
+                        <figure class='people-list__item-content-wrapper'>
+                            <img class="people-list__item-image" src="images/immersion.png" alt='Immersion Sessions'>
+                            <figcaption class="people-list__item-caption">Immersion Sessions</figcaption>
+                        </figure>
+                    </a>
+                    <a class='people-list__item' href="http://fanlink.to/neptunesessionspod">
+                        <figure class='people-list__item-content-wrapper'>
+                            <img class="people-list__item-image" src="images/neptune.png" alt='Neptune Sessions'>
+                            <figcaption class="people-list__item-caption">Neptune Sessions - Coming Soon</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                </div>
+ 
+                
             </div>
         </main>
         <footer class='footer'>
